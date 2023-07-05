@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body {
+    font-family: 'Sora', sans-serif;
+
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.title {
+    color: #424242;
+    font-size: 20px;
+}
+
+.title2 {
+    font-size: 36px;
+    color: #212121;
+}
+.email {
+    margin-top: 40px;
+}
+#email {
+    border-radius: 16px;
+    border: 1px solid  #00C247;
+    background: #FFF;
+    width: 400px;
+    height: 56px;
+}
+
+.password {
+    margin-top: 24px;
+    
+}
+
+#senha {
+    border-radius: 16px;
+    border: 1px solid #E0E0E0;
+    background: #FFF;
+    width: 400px;
+    height: 56px;
+}
+
+#rememberMe {
+    width: 64px;
+    height: 24px;
+}
+.e-senha {
+    margin-left: 161px;
+    font-size: 16px;
+}
+
+.button{
+    margin-top: 39px;
+    width: 450px;
+    height: 56px;
+    padding: 12px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #482D83;
+}
