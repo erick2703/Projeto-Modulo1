@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 /* inicio da estilização da pagina de login */
-body {
+* {
     font-family: 'Sora', sans-serif;
 
 }
