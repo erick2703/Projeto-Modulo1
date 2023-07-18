@@ -79,8 +79,8 @@
     background-color: #482D83;
     display: flex;
     flex-direction: column;
-    width: 271px;
-    height: 1208px;
+    width: 350px;
+    height: 647px;
     
 }
 .vazia {
@@ -135,3 +135,11 @@ main {
     font-size: 10px;
     margin: 0;
 }
+ .search-itens {
+    display: flex;
+ }
+  .search-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  

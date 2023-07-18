@@ -85,7 +85,7 @@
                 <h1 >Mentores</h1>
             </div>
             <section class="page-contain">
-                <div class="search-itens">
+                <!-- <div class="search-itens"> -->
                     <div class="search-box">
                         <input class="input-search" id="input-search" type="search" placeholder="Pesquise uma palavra-chave" onkeyup="pesquisar()">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,9 +97,23 @@
                         <button type="submit" class="new-mentor-button" onclick="novoMentor()">
                             <i class="fa-regular fa-plus"></i>Novo Mentor
                         </button>
+                    </div>
+
+                        <div class="table-mentores">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="table-name">Nome</th>
+                                        <th class="table-mail">E-mail</th>
+                                        <th class="table-action">Ações</th>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                        </div>
 
                         
-                    </div>
+                    
                         
             </section>
         </main>    
